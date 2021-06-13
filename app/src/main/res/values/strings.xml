@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">2018_Mobile</string>
+    <string name="name">Enter your First name and Last name</string>
+    <string name="medicine_info_search_hint">약물 정보 검색</string>
+    <string name="search">Search</string>
+    <string name="memo_content">Memo:</string>
+    <string name="memo_hint">메모 내용 입력</string>
+    <string name="submit">업로드</string>
+    <string name="memo">메모</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="open_time_picker">open time picker</string>
+    <string name="No_Alarm_set">No Alarm set</string>
+    <string name="cancel_alarm">cancel alarm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--For login and register-->
+    <string name="login">Login</string>
+    <string name="id_label">ID</string>
+    <string name="pw_label">Password</string>
+    <string name="login_id_placeholder">Please type your ID</string>
+    <string name="login_pw_placeholder">Please type your PW</string>
+    <string name="register">Register</string>
+    <string name="register_id_placeholder">Please type your ID</string>
+    <string name="register_pw_placeholder">Please type your PW</string>
+    <string name="register_re_pw_placeholder">Please type your PW again</string>
+
+    <!--For alarm -->
+
+    <string name="no_cardetails">Click on the button below to begin creating your alarm!</string>
+    <string name="title_activity_add_reminder">Add alarm</string>
+    <string name="title_activity_edit_reminder">Edit alarm</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">alarm</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="auto_mode">Auto Mode</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Time of Repetitions</string>
+    <string name="skip_type">Skip Interval</string>
+    <string name="repeat_date">RepeatDate</string>
+    <string name="remain_no">남은 약 개수</string>
+
+    <string name="sunday_week">일</string>
+    <string name="monday_week">월</string>
+    <string name="tuesday_week">화</string>
+    <string name="wednesday_week">수</string>
+    <string name="thursday_week">목</string>
+    <string name="friday_week">금</string>
+    <string name="saturday_week">토</string>
+
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Alarm Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Alarm</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="capsule_timer">Pill Alarm</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <!-- calendar widget string-->
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+
+    <!-- search view-->
+    <string name="action_voice_rec">action voice rec</string>
+    <string name="action_location">action location</string>
+    <string name="action_taxi">action taxi</string>
+    <string name="action_change_colors">change style</string>
+    <string name="color_info"> color_info </string>
+    <string name="dummy_text"> dummy_text </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_example_with_sliding_list">Sliding list</string>
+    <string name="action_example_sliding_search_bar">Sliding search view</string>
+    <string name="random_text"> random_text</string>
+    <string name="action_example_scrolling_search_bar">scrolling behavior</string>
+
+    <string name="action_settings">settings</string>
+    <string name="navigation_drawer_open">navigation open</string>
+    <string name="navigation_drawer_close">navigation close</string>
+    <string name="email_type_hint">보내실 분의 이메일을 입력해주세요.</string>
+    <string name="email_warning1">입력된 이메일로 레포트가 전송됩니다.</string>
+
+    <string name="Navi_header">Easy way to record your taking medicine!</string>
+</resources>
+
