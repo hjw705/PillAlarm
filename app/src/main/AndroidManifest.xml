@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.SE.team12.pillalarm2021"> <!-- for calendar appWidget -->
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.SE.team12.pillalarm2021.FontApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pill Alarm"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:node="replace">
+        <activity
+            android:name="com.SE.team12.pillalarm2021.Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.SE.team12.pillalarm2021.MainActivity" />
+        <activity android:name="com.SE.team12.pillalarm2021.memomain" />
+        <activity android:name="com.SE.team12.pillalarm2021.MemoActivity" />
+        <activity android:name="com.SE.team12.pillalarm2021.AppHomepage"/>
+        <activity android:name="com.SE.team12.pillalarm2021.Pillsearch"/>
+        <activity
+            android:name="com.SE.team12.pillalarm2021.Login"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.SE.team12.pillalarm2021.Register"
+            android:theme="@style/AppTheme.Dark" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- for calendar appWidget -->
+        <receiver android:name="com.SE.team12.pillalarm2021.MonthCalendarWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/month_calendar_widget_info" />
+
+        </receiver>
+        <receiver
+            android:name="com.SE.team12.pillalarm2021.MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.SE.team12.pillalarm2021.AlarmRinging" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.SE.team12.pillalarm2021.buttonAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="Click1" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/button_app_widget_info" />
+        </receiver>
+
+        <activity android:name="com.SE.team12.pillalarm2021.SettingAlarm" />
+
+        <uses-library android:name="android.test.runner" android:required="false"/>
+    </application>
+</manifest>
