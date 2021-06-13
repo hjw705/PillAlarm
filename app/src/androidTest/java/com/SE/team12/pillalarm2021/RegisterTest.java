@@ -17,9 +17,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 
 
-/**
- * Created by leejisung on 2018-06-08.
- */
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class RegisterTest {
