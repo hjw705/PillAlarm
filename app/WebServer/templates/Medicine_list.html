@@ -96,6 +96,30 @@ https://templatemo.com/tm-543-breezed
 
     <!-- ***** Main Banner Area End ***** -->
 
+<div class="container" style="margin-top: 20px;">
+    {% if result['medicines']|length > 0 %}
+        {% for medicine in result['medicines'] %}
+    <!--    <a href="/search/medicine/{{ medicine['itemSeq'] }}" style="text-decoration: none; color: #000000">-->
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>{{ medicine['itemName'] }}</h2></div>
+                <div class="panel-body">
+    <!--            <p>제품명: {{ medicine['itemName'] }}</p>-->
+                    <p>제조사: {{ medicine['entpName'] }}</p>
+                    <p>제품사진: <img alt="No image" src="{{ medicine['itemImage'] }}" height="200px"/> </p>
+                    <br>
+                    <p>보관방법: {{ medicine['depositMethodQesitm'].replace('<p>', '').replace('<\\/p>', ' ') }}</p>
+                    <p>부작용: {{ medicine['seQesitm'].replace('<p>', '').replace('<\/p>', ' ')}}</p>
+                    <p>복용법: {{ medicine['useMethodQesitm'].replace('<p>', '').replace('<\/p>', ' ') }}</p>
+                </div>
+            </div>
+        <br><br><br><br><br><br>
+        {% endfor %}
+<!--    </a>-->
+    {% else %}
+        <h2>잘못된 검색어입니다. 다시 검색해주세요.</h2>
+    {% endif %}
+</div>
+
         <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">
