@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1026064212468-cf0ls8k2gratsh29q1757vq6mr88n9b4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cocktail-4723d-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1026064212468</string>
+    <string name="google_api_key" translatable="false">AIzaSyDpHj1aIbuHVDZ9CZlKJ627wr7eoUkHY3A</string>
+    <string name="google_app_id" translatable="false">1:1026064212468:android:36e55d88a24263d26ed9a1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDpHj1aIbuHVDZ9CZlKJ627wr7eoUkHY3A</string>
+    <string name="google_storage_bucket" translatable="false">cocktail-4723d.appspot.com</string>
+    <string name="project_id" translatable="false">cocktail-4723d</string>
+</resources>
