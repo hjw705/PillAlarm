@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1026064212468",
+    "firebase_url": "https://cocktail-4723d-default-rtdb.firebaseio.com",
+    "project_id": "cocktail-4723d",
+    "storage_bucket": "cocktail-4723d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026064212468:android:36e55d88a24263d26ed9a1",
+        "android_client_info": {
+          "package_name": "com.SE_team12.pillalarm2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026064212468-cf0ls8k2gratsh29q1757vq6mr88n9b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpHj1aIbuHVDZ9CZlKJ627wr7eoUkHY3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026064212468-cf0ls8k2gratsh29q1757vq6mr88n9b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
