@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:contentPadding="10dp"
+        app:cardBackgroundColor="#33FFFFFF"
+        android:layout_margin="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:id="@+id/card"
+            android:clickable="true"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffffff"
+            android:orientation="vertical">
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ffffff"
+                android:orientation="vertical">
+                <TableRow>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/img"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_action_edit"
+                            android:background="@drawable/background_transparent"
+                            android:layout_toLeftOf="@+id/delete"
+                            android:clickable="true"
+                            android:id="@+id/edit"/>
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_action_delete"
+                            android:background="@drawable/background_transparent"
+                            android:layout_alignParentRight="true"
+                            android:clickable="true"
+                            android:id="@+id/delete"/>
+                        <TextView
+                            android:textColor="@color/primary_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/title"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_below="@+id/title"
+                            android:textColor="@color/primary_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dateTime"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_below="@+id/dateTime"
+                            android:textColor="@color/primary_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/repeat"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:layout_alignParentRight="true"
+                            android:drawableLeft="@drawable/taken_button"
+                            android:layout_below="@+id/repeat"
+                            android:textColor="@color/primary_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/Taken"
+                            android:background="#0000"
+                            android:textStyle="bold"
+                            android:text="약먹음"/>
+
+                    </RelativeLayout>
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
