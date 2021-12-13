@@ -3,7 +3,7 @@
 > Pill Alarm
 
 ## Project Description
-> It is a project that emotionalizes actual puppy pictures.<br>
+> It is a web and app service that manages patients' regular pills.<br>
 > 환자들의 정기적인 알약 복용을 관리해주는 웹, 앱 서비스입니다.
 
 ## Collaborators
